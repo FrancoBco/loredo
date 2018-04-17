@@ -1,0 +1,256 @@
+ /* 
+
+                                   CODIGO VIEJO 
+
+overflow: hidden; 
+
+body{background-color: rgb(29, 29, 29);
+    margin: 40px;}
+
+header{z-index:9000; position: relative; ;}
+
+
+h1{color: rgb(241, 241, 241);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;}
+
+h2{color: rgb(241, 241, 241);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;}
+
+ p{color: rgb(241, 241, 241);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+        text-align: left;
+        font-size: 14px}
+
+ td{color: rgb(241, 241, 241);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(54, 54, 54);
+        position: sticky;
+        top: 0;
+        
+    }
+    
+    li {
+        float: left;
+        position: relative;
+    }
+    
+    li a {  
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 30px;
+        text-decoration: none;
+         }
+
+    .active {
+        background-color: rgb(146, 19, 19);
+    }
+    li a:hover {
+        background-color: rgb(185, 90, 90);
+    }
+    form{font-family: 'Open Sans', sans-serif;
+    color: white;}
+
+footer{font-family: 'Open Sans', sans-serif;
+    color: white;}
+
+#inicioscaja{height: 250px;margin: 50px 0px 0px 10px;}
+
+
+    .inicios{
+        width: 600px; display: block; float: left;
+        margin: 0px 60px 0px 0px;}
+        
+    .img{display: block;float: left;}
+
+#submenu {
+        left: 0;
+        display: none;
+        position: absolute;
+        top: 35px;}
+
+        li:hover ul#submenu {
+            display: block;
+              top: 50px;
+          }
+          #submenu li {
+              float: none;
+              width: 100%;
+              
+          }
+          #submenu a:hover {
+            background-color: rgb(185, 90, 90);          
+        }
+          #submenu a {
+            background-color: rgb(58, 58, 58);
+          }
+
+
+    .int{ transform: scale(1,1); 
+        transition: transform 1s;}      
+    .int:hover{transform: scale(1.1,1.1);}
+
+    */
+
+
+body{background-color: rgb(32, 32, 32);height: auto;}
+
+.inicio{
+    background-image: url("imagenes/todos.jpg");
+    height: 790px;
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    padding: 10px;}
+
+ul {    z-index:90000;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color:  rgba(54, 54, 54, 0.5);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    li {
+        float: left;
+        position: relative;
+    }
+    
+    li a {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        display: block;
+        color: rgb(218, 218, 218);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        color: rgb(252, 252, 252);
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;
+    }
+    
+    .active {
+        color: rgb(252, 252, 252);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+    }
+
+    #submenu {
+        left: 0;
+        display: none;
+        position: absolute;
+        top: 35px;}
+
+        li:hover ul#submenu {
+            display: block;
+              top: 50px;
+          }
+          #submenu li {
+              float: none;
+              width: 100%;
+              
+          }
+          #submenu a:hover {
+            color: rgb(252, 252, 252);
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 800;}
+          #submenu a {
+            background-color: rgba(54, 54, 54, 0.200);
+          }
+          #logo{
+            float: left ;height: 25px;}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 12px;
+    text-align: center;
+    color: white;}
+
+h2{ font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: white;}
+
+.iniciostexto
+    {font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: rgb(231, 231, 231);
+    margin-bottom: 22px;}
+
+#inicioscaja{height: 250px;margin: 50px 0px 0px 10px;}
+
+.inicios{
+        width: 700px; display: block; float: left;
+        margin: -25px 0px 0px 50px;}
+        
+.imginicios{display: block;float: left; margin: 5px 0px 0px 0px;}
+
+.vermas {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    display: block;
+    width: 22%;
+    border: none;
+    background-color: rgba(77, 77, 77, 0.274);
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(207, 207, 207);
+    
+}
+
+a{ text-decoration: none;
+}
+
+.int{ transform: scale(1,1); 
+    transition: transform 1s;}      
+.int:hover{transform: scale(1.2,1.2);}
+
+.disc{ transition: transform 1s;}      
+.disc:hover{transform: rotate(10deg);}
+
+#integrantes{height: 250px;margin: 50px 0px 0px 10px;}
+#discografia{height: 250px;margin: 50px 0px 0px 0px;}
+#footer{height: 150px;margin: 50px 0px 0px 0px;text-align: center;}
+
+
+td{ font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;}
+
+.integrante{color: white;}
+.dtitulo{font-size: 18px;color: rgb(235, 235, 235);}
+.dfecha{font-size: 14px; color: seashell;}
+.discos{width: 100%;}
+
+
+
+h3{ font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: white;}
